@@ -1,0 +1,167 @@
+/* General Styles */
+/* These styles apply to the entire page, setting font, spacing, and background colors */
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* General header styling */
+header {
+    background-color: #000; /* Dark background color */
+    color: white; /* White text color */
+    padding: 2rem;
+    display: flex; /* Use flexbox for header layout */
+    flex-direction: column; /* Stack the image + text and navigation vertically */
+    align-items: flex-start; /* Center the content horizontally */
+}
+
+/* Wrapper for image and text */
+.header-content {
+    display: flex; /* Arrange image and text side by side */
+    align-items: center; /* Vertically align image and text */
+    width: 100%;
+    max-width: 900px; /* Optional: Limit the width of the header content */
+    margin-bottom: 20px; /* Add some space between header content and navigation */
+}
+
+/* Styling for the image (round square) */
+.header-image {
+    width: 200px; /* Set the size of the image */
+    height: 200px; /* Make it square */
+    border-radius: 15px; /* Rounded corners */
+    object-fit: cover; /* Ensure the image fills the square without stretching */
+    margin-right: 20px; /* Add space between the image and the text */
+}
+
+/* Styling for the text */
+.header-text {
+    text-align: left; /* Align text to the left */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+/* General styles for all sections of the webpage */
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Section headings */
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+/* About Section */
+/* Specific styles for the "About Me" section */
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* PROJECTS Section */
+/* Card-like styling for individual projects */
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Project titles */
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Project descriptions */
+.project p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Resume Section */
+/* Styling for the Resume Section*/
+/* Card-like styling for individual projects */
+.resume {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Project titles */
+.resume h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Project descriptions */
+.resume p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+/* Styles for the footer section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Footer text */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
